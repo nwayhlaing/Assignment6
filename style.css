@@ -1,0 +1,38 @@
+
+
+button{padding: 20px 40px;
+border: 1px solid red;
+background-color:brown;
+font-size:24px ;
+color:aliceblue ;
+border-radius: 20px;
+animation-name: move;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+transition-timing-function:ease-in-out ;
+
+transform: rotate(360deg);
+}
+
+
+
+@keyframes move{
+    
+       0%{
+           transform: translatex(0px) rotate(180deg) ;
+        }
+        50%{
+            transform: translatex(900px) rotate(360deg) ;
+        }
+        100%{
+            transform: translatex(0px) rotate(180deg);}
+        
+}
+
+
+div{margin: 10vh;
+text-align: left;}
+h1{
+    color: brown;
+}
